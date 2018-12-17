@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+
+body{
+  background-image: url("backgr2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  height: 100%; 
+    }    
+.container {
+   background: none;
+    width:1200px;
+    height: 900px;
+    margin:auto;
+}
+.header{
+    height: 10%;
+    width: 90%;
+
+    margin:auto;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer {
+    height: 10%;
+    width: 90%;
+    background-color: #c6bab6;
+    margin:auto;
+    margin-bottom: 10px;
+}
+
+.middle {
+    height: 80%;
+    width: 100%;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.middle .left_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    width: 15%;
+    height: 90%;
+    background-color: white;
+    border-right: 1px solid gray;
+   
+}
+.middle .content {
+    height: 90%;
+    width: 70%;
+    background-color: #7181dd;
+}
+.middle .right_menu {
+    width: 15%;
+    height: 90%;
+    background-color: #7fbf7e;
+}
+a.link {
+    display: block;
+}
+.header_item {
+    text-align: center;
+    width: 200px;
+    border-radius: 2px;
+    box-shadow: 3px 24px 51px 0px rgba(46,15,250,1);
+    height: 90px;
+    background-color: rgba(123, 234, 197, 0.4);
+    transition: 0.6s;
+    color:white;
+    
+}
+.header_item:hover {
+    transform: scale(1.1);
+   background-color: rgba(123, 234, 197, 0.8);
+    
+}
+h3 {
+    padding-top: 30px;
+    font-size: 25px;
+    font-family: "bookman header", serif;
+    font-weight: bold;
+}
+h5 {
+    
+}
+.car_image {
+    width: 90%;
+    height: 80px;
+    transition: 1s;
+}
+.car_image:hover {
+    transform: scale(1.7);
+  
+}
+.specification {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+   .specification > .spec_item {
+        
+      
+        padding: 10px;
+        width: 100px;
+        height: 20px;
+        text-align: center;
+        border:1px solid #ccc;
+        background-color: rgba(255, 255, 255, 0.5);
+        transition: 0.4s;
+        
+    }
+    
+     .specification .spec_item:hover {
+         background-color: rgba(255, 248, 220,1);
+        
+    }
